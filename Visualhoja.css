@@ -1,0 +1,129 @@
+body {
+    font-family: Tahoma;
+    background-image: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 50px;
+    font-size: 16px;
+
+
+}
+
+.margen {
+
+    margin: 100px;
+    background-color: white;
+
+    padding: 2px;
+    border-radius: 10%;
+    font-family: Tahoma;
+
+
+}
+
+.foto {
+    margin: 50px 250px 10px 250px;
+    border-radius: 50%;
+
+    width: 400px;
+    position: center;
+
+}
+
+
+.InfPersonal {
+    text-align: center;
+   
+    padding: 50px;
+    
+    margin: 50px;
+
+}
+
+.Perilocupacional {
+    position: center;
+    padding: 10px;
+    /* Añade espacio alrededor del contenido para mejorar la apariencia */
+    margin: 10px;
+
+}
+
+.h1 {
+    color: black;
+    font-size: 25px;
+    font-family: Tahoma;
+}
+
+
+
+.Perilocupacional h2 {
+   
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.Estudios h3,h4 {
+    
+    margin: 10px;
+    font-size: 20px;
+    font-family: Tahoma;
+
+}
+
+.Experiencia h5 {
+    
+    margin: 10px;
+    font-size: 20px;
+    font-family: Tahoma;
+
+}
+
+
+.Experiencia h6 {
+   
+    margin: 10px;
+    font-size: 20px;
+    font-family: Tahoma;
+
+}
+
+.Contactar {
+    background-color: rgb(184, 184, 245);
+    padding: 8px; /* Reducir el padding */
+    border-radius: 50px; /* Reducir el radio del borde */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+    font-size: 14px; /* Reducir el tamaño del texto */
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 8px; /* Reducir el margen inferior */
+    font-size: 14px; /* Reducir el tamaño del texto */
+}
+
+input,
+select,
+button {
+    margin-bottom: 8px; /* Reducir el margen inferior */
+    padding: 2px;
+    width: 70%; /* Reducir el ancho */
+    box-sizing: border-box;
+    font-size: 14px; /* Reducir el tamaño del texto */
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px; /* Reducir el tamaño del texto */
+}
